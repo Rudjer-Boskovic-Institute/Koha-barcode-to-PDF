@@ -1,0 +1,14 @@
+Version 0.1
+
+Description:
+Online PDF generation with barcodes from Koha for printing on all kinds of labels
+
+Installation:
+Apache, php5, mysql client, tcpdf class
+1. Copy inc/config.inc.php.example to inc/config.inc.php and edit this file according to your db setup
+2. Get tcpdf class (http://www.tcpdf.org/) and make files accessible in inc/tcpdf
+3. edit sql queries and label layout in ./tc_label.php according to your needs
+4. secure this directory
+
+Usage:
+Point your browser to the script URL..

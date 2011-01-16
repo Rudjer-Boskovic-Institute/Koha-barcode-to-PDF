@@ -1,0 +1,51 @@
+<?php
+
+//
+// DATABASE CONFIG
+//
+//database server
+define('DB_SERVER', "koha.example.org");
+
+//database login name
+define('DB_USER', "kohareader");
+//database login password
+define('DB_PASS', "xxxxxxxxxx");
+
+//database name
+define('DB_DATABASE', "koha");
+
+
+//
+// LABEL TEMPLATES CONFIG
+//
+
+$labels = array(
+                        'Avery_L4737'=> array(
+                                        'paper-size'=>'A4',
+                                        'metric'=>'mm',
+                                        'marginLeft'=>7,
+                                        'marginTop'=>15,
+                                        'NX'=>3,
+                                        'NY'=>9,
+                                        'SpaceX'=>3,
+                                        'SpaceY'=>1,
+                                        'width'=>63.5,
+                                        'height'=>29.6,
+                                        'font-size'=>9
+                        ),
+                        'Avery_L4737_test'=> array(
+                                        'paper-size'=>'A4',
+                                        'metric'=>'mm',
+                                        'marginLeft'=>7,
+                                        'marginTop'=>15,
+                                        'NX'=>3,
+                                        'NY'=>9,
+                                        'SpaceX'=>3,
+                                        'SpaceY'=>1,
+                                        'width'=>63.5,
+                                        'height'=>29.6,
+                                        'font-size'=>9
+                        )
+);
+
+?>
